@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BREYNNER - WEB DESIGNER</title>
+    <title>Breynner Caldas - Web Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <div class="header">
@@ -15,7 +19,7 @@
 
                 <div class="coluna col4">
 
-                    <h1 class="logo">BREYNNER</h1>
+                    <h1 class="logo">Breynner</h1>
 
                 </div>
 
@@ -23,7 +27,7 @@
 
                     <nav>
 
-                        <ul class="menu inlne sem-marcador">
+                        <ul class="menu inline sem-marcador">
 
                             <li><a href="index.html">home</a></li>
                             <li><a href="clientes.html">clientes</a></li>
@@ -39,23 +43,23 @@
 
             </header>
 
-        </div>
+        </div><!--linha-->
 
-    </div>
+    </div><!--header-->
 
     <div class="linha">
 
         <section>
 
             <div class="coluna col5 sidebar">
-                
+
                 <h3>Localização</h3>
 
                 <img src="img/mapa.jpg" alt="">
 
                 <ul class="sem-padding sem-marcador">
 
-                    <li>Av. leonardo malcher</li>
+                    <li>Av. Leonardo Malcher</li>
                     <li>Bairro Centro</li>
                     <li>Manaus - AM</li>
 
@@ -65,87 +69,40 @@
 
                 <ul class="sem-padding sem-marcador">
 
-                    <li>Fone</li>
-                    <li>Email</li>
-                    <li>skype</li>
-
+                    <li>Fone: <strong>(92) 9999-9999</strong></li>
+                    <li>Email: <strong>tiago.silva@gmail.com</strong></li>
+                    <li>Instagram: <strong>@empresABC</strong></li>
                 </ul>
 
             </div>
 
-            <div class="coluna col6">
-                
-                <h4>Nome da empresa 02</h4>
+            <div class="coluna col7 contato">
 
-                <img src="img/thumb-grande.jpg" alt="">
+                <h2>Emvie sua mensagem</h2>
 
-                <p>Podemos acreditar em tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hj</p>
+                <form action="">
 
-            </div>
+                    <label for="nome">Seu nome:</label>
+                    <input type="text" name="nome" id="nome">
 
-            <div class="coluna col4">
-                
-                <h4>Nome da empresa 03</h4>
+                    <label for="email">Seu email:</label>
+                    <input type="text" name="email" id="email">
 
-                <img src="img/thumb-grande.jpg" alt="">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" name="assunto" id="assunto">
 
-                <p>Podemos acreditar em tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hj</p>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
 
-            </div>
-            
-            <div class="coluna col4">
-                
-                <h4>Nome da empresa 04</h4>
+                    <input type="submit" class="botao" name="enviar" value="Enviar mensagem &raquo;">
 
-                <img src="img/thumb-grande.jpg" alt="">
-
-                <p>Podemos acreditar em tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hj</p>
-
-            </div>
-
-            <div class="coluna col4">
-                
-                <h4>Nome da empresa 05</h4>
-
-                <img src="img/thumb-grande.jpg" alt="">
-
-                <p>Podemos acreditar em tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hj</p>
-
-            </div>
-
-            <div class="coluna col4">
-                
-                <h4>Nome da empresa 06</h4>
-
-                <img src="img/thumb-grande.jpg" alt="">
-
-                <p>Podemos acreditar em tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hj</p>
-
-            </div>
-
-            <div class="coluna col4">
-                
-                <h4>Nome da empresa 07</h4>
-
-                <img src="img/thumb-grande.jpg" alt="">
-
-                <p>Podemos acreditar em tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hj</p>
-
-            </div>
-
-            <div class="coluna col4">
-                
-                <h4>Nome da empresa 08</h4>
-
-                <img src="img/thumb-grande.jpg" alt="">
-
-                <p>Podemos acreditar em tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hj</p>
+                </form>
 
             </div>
 
         </section>
 
-    </div>
+    </div><!--linha-->
 
     <div class="conteudo-extra">
 
@@ -155,11 +112,19 @@
 
                 <section>
 
-                    <h2>Opinião de quem contratou</h2>
+                    <h2>Método alternativo de contato</h2>
 
-                    <p>Podemos acreditar em tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hj</p>
-                    <p>Podemos acreditar em tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hj</p>
-                    <p>Podemos acreditar em tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hj <em>Elon Musk - Tesla -</em></p>
+                    <p>Caso não consiga me contratar por alguns dos meios acima, possivelmente eu estarei em uma ilha deserta em algum
+					lugar do pacífico. Neste caso há duas possibilidades:</p>
+
+                    <ol>
+
+                        <li>Enviar uma mensagem em uma garrafa</li>
+                        <li>Tentar um sinal de fumaça</li>
+
+                    </ol>
+
+                    <p>Mas sinceramente não sei se algum desses métodos será eficiente, tente por sua conta e risco:D</p>
 
                 </section>
 
@@ -167,7 +132,7 @@
 
             <div class="coluna col5">
 
-                <h3>Ultimas noticias</h3>
+                <h3>Últimas notícias</h3>
 
                 <ul class="sem-marcador sem-padding noticias">
 
@@ -175,19 +140,9 @@
 
                         <img src="img/thumb-pequena.jpg" alt="">
 
-                        <h4>Titulo da noticia publicada no blog</h4>
+                        <h4>Título da notícia publicada no blog</h4>
 
-                        <p>Podemos acreditar que tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hoje. <a href="">Leia Mais &raquo;</a></p>
-
-                    </li>
-
-                    <li>
-
-                        <img src="img/thumb-pequena.jpg" alt="">
-
-                        <h4>Titulo da noticia publicada no blog</h4>
-
-                        <p>Podemos acreditar que tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hoje. <a href="">Leia Mais &raquo;</a></p>
+                        <p>Podemos acreditar que tudo que a vida nos oferecerá no futuro é repetir o que fizemos ontem e hoje. <a href="">Leia mais &raquo;</a></p>
 
                     </li>
 
@@ -195,19 +150,29 @@
 
                         <img src="img/thumb-pequena.jpg" alt="">
 
-                        <h4>Titulo da noticia publicada no blog</h4>
+                        <h4>Título da notícia publicada no blog</h4>
 
-                        <p>Podemos acreditar que tudo que a vida nos oferecera no futuro é repetir o que fizemos ontem e hoje. <a href="">Leia Mais &raquo;</a></p>
+                        <p>Podemos acreditar que tudo que a vida nos oferecerá no futuro é repetir o que fizemos ontem e hoje. <a href="">Leia mais &raquo;</a></p>
+
+                    </li>
+
+                    <li>
+
+                        <img src="img/thumb-pequena.jpg" alt="">
+
+                        <h4>Título da notícia publicada no blog</h4>
+
+                        <p>Podemos acreditar que tudo que a vida nos oferecerá no futuro é repetir o que fizemos ontem e hoje. <a href="">Leia mais &raquo;</a></p>
 
                     </li>
 
                 </ul>
-                
+
+            </div>
+
             </div>
 
         </div>
-
-    </div>
 
     <div class="footer">
 
@@ -215,9 +180,9 @@
 
             <footer>
 
-                <div class="coluna col2">
+                <div class="coluna col12">
 
-                    <span>&copy; 2025 BREYNNER CALDAS WEB DESINGER</span>
+                    <span>&copy; 2025 - Breynner Caldas Web Design</span>
 
                 </div>
 
@@ -226,6 +191,7 @@
         </div>
 
     </div>
-    
+
 </body>
+
 </html>
