@@ -128,13 +128,15 @@ img {
 }
 
 h1.logo {
-    font-weight: 300;
+    font-weight: 800;
     color: #315e8a;
     letter-spacing: -2px;
+    font-size: 40px;
 }
 
 .conteudo-extra {
     background-color: #f1f2ea;
+
 }
 
 .footer {

@@ -6,3 +6,30 @@ body {
 .col8 {
     margin-top: 20px;
 }
+
+.sectech {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, #dee3e6, transparent);
+    padding-left: 10px;
+}
+
+.logo_parceiro {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.logo_parceiro:hover {
+    border: 2px solid rgb(190, 162, 162);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px;
+}
+
+.ultimas {
+    background-image: linear-gradient(to right, #c5cace, transparent);
+    padding-left: 10px;
+}
+
+.img_seguranca {
+    border-radius: 20px;
+}
