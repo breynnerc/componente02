@@ -33,3 +33,35 @@ body {
 .img_seguranca {
     border-radius: 20px;
 }
+
+.logo-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.logo-img-g {
+    height: 430px;
+    width: 430px;
+    border-radius: 10px;
+}
+h4 {
+    background-image: linear-gradient(to right, #c5cace, transparent);
+    padding-left: 10px;
+}
+
+.teste1 {
+    display: flex;
+}
+
+.teste2 {
+    display: flex;
+}
+
+.teste3 {
+    display: flex;
+}
+
+.text {
+    width: 300px;
+}
